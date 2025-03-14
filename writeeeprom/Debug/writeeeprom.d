@@ -1,1 +1,0 @@
-writeeeprom.o: ../writeeeprom.c
