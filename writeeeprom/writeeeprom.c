@@ -48,7 +48,7 @@ int main(int argc, char* argv[])
 		return 1;
 	}
 
-	ssize_t ret = write(fd,argv[2],strlen(argv[1]));
+	ssize_t ret = write(fd,argv[2],strlen(argv[2]));
     if (ret < 0) {
         perror("write failed");
         close(fd);
